@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# zfs-disk-sanity.sh
+# newdisk-check.sh
 #
 # Complete pre-ingest validation script for TrueNAS / Linux ZFS disks.
 #
