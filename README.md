@@ -35,7 +35,7 @@ Designed to work on TrueNAS, Linux, and BSD systems. Fully **PuTTY-friendly**, c
 
 Download the script:
 
-    curl -O https://raw.githubusercontent.com/<username>/newdisk-check/main/newdisk-check.sh
+    curl -O https://raw.githubusercontent.com/darkice83/newdisk-check/main/newdisk-check.sh
 
 Make it executable:
 
