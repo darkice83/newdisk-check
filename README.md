@@ -1,4 +1,4 @@
-# zfs-disk-sanity
+# newdisk-check.sh
 
 A Bash script for **validating new or used disks** before adding them to a ZFS pool, such as a RAIDZ2 configuration.  
 Designed to work on TrueNAS, Linux, and BSD systems. Fully **PuTTY-friendly**, colorized, and safe for terminals that do not support emojis.
@@ -35,15 +35,15 @@ Designed to work on TrueNAS, Linux, and BSD systems. Fully **PuTTY-friendly**, c
 
 Download the script:
 
-    curl -O https://raw.githubusercontent.com/<username>/zfs-disk-sanity/main/zfs-disk-sanity.sh
+    curl -O https://raw.githubusercontent.com/<username>/newdisk-check/main/newdisk-check.sh
 
 Make it executable:
 
-    chmod +x zfs-disk-sanity.sh
+    chmod +x newdisk-check.sh
 
 Optionally, move it to a system path:
 
-    sudo mv zfs-disk-sanity.sh /usr/local/sbin/
+    sudo mv newdisk-check.sh /usr/local/sbin/
 
 ---
 
@@ -51,7 +51,7 @@ Optionally, move it to a system path:
 
 Run the script on a device:
 
-    sudo ./zfs-disk-sanity.sh /dev/sdX
+    sudo ./newdisk-check.sh /dev/sdX
 
 ### Options
 
@@ -67,11 +67,11 @@ Run the script on a device:
 
 Full destructive test:
 
-    sudo ./zfs-disk-sanity.sh /dev/sdb
+    sudo ./newdisk-check.sh /dev/sdb
 
 Non-destructive / safe mode:
 
-    sudo ./zfs-disk-sanity.sh --safe-mode /dev/sdb
+    sudo ./newdisk-check.sh --safe-mode /dev/sdb
 
 ---
 
@@ -97,7 +97,7 @@ All output is **ANSI colorized** for terminals that support it, but will display
 
 ## Author
 
-Shawn’s GPT-5 assistant.
+Shawn’s GPT-5 assistant for initial commit, future edits by Shawn
 
 ---
 
